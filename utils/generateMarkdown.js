@@ -1,6 +1,10 @@
 // function to generate markdown for README
+// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+// [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
 function generateMarkdown(data) {
   return `# ${data.title}
+
+  ![License: AGPL v3](https://img.shields.io/badge/License-${data.license}-blue.svg)
 
   ## Description
   ${data.description}
@@ -24,24 +28,27 @@ function generateMarkdown(data) {
   To install necessary dependencies, run the following command: 
 
   ~~~ 
-  npm i
+  ${data.install}
   ~~~
 
   ## Usage 
+  ${data.usage}
 
   ## License
+  ${data.license}
 
   ## Contributing
+  ${data.contributing}
 
   ## Tests
+  ~~~ 
+  ${data.tests}
+  ~~~
 
   ## Questions
 
-  The application will be invoked by using the following command:
-
-  ~~~ bash
-  node index.js
-  ~~~
+ If you have any questions about this project, please feel free to reach out to me at [${data.email}](mailto:${data.email}). 
+ You can find out more about my work at [${data.git_username}](https://github.com/${data.git_username}).
 
 
 `;
