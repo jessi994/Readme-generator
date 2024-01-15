@@ -13,29 +13,47 @@ const questions = [
       },
       {
         type: 'input',
-        message: 'What is your Github project title?',
+        message: 'What is your email?',
+        name: 'email',
+      },
+      {
+        type: 'input',
+        message: 'What is your project title?',
         name: 'title',
       },
       {
         type: 'input',
-        message: 'What is your Github project description?',
+        message: 'Please write a short description of your project',
         name: 'description',
       },
-    // 'What is your Github username?',
-    // 'What is your email?',
-    // "What is your project's name?",
-    // "please write a short description of your project",
-    // "What kind of license should your project have?",
-    {
+      {
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
         choices: ['MIT','GPLv2','Apache License 2.0']
       },
-    // "What command should be run to install dependicies?",
-    // "What command should be run to run tests?",
-    // "What does the user need to know about using the repo?",
-    // "What does the user need to know about contributing to the repo?"
+      {
+        type: 'input',
+        message: 'What command should be run to install dependicies?',
+        default: 'npm i',
+        name: 'install',
+      },
+      {
+        type: 'input',
+        message: 'What command should be run to run tests?',
+        default: 'npm test',
+        name: 'command',
+      },
+      {
+        type: 'input',
+        message: 'What does the user need to know about using the repo?',
+        name: 'repo',
+      },
+      {
+        type: 'input',
+        message: 'What does the user need to know about contributing to the repo?',
+        name: 'repo',
+      }
 
 
 ];
@@ -45,7 +63,7 @@ function writeToFile(fileName, data) {
     //fs to writeFile or writeFileSync
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
-        console.log('The file has been saved!');
+        console.log('Generating your README file!!...');
       }); 
 }
 
