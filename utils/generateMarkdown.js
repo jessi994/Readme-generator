@@ -1,10 +1,15 @@
 // function to generate markdown for README
-// [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
-// [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)]
+
 function generateMarkdown(data) {
+  const obj = {
+    'MIT': 'MIT-yellow',
+    'gpl-2-0': 'GPL%20v2-blue',
+    'Apache-2.0': 'Apache%202.0-blue'
+
+  };
   return `# ${data.title}
 
-  ![License: AGPL v3](https://img.shields.io/badge/License-${data.license}-blue.svg)
+  [![License: ${data.license}](https://img.shields.io/badge/License-${obj[data.license]}.svg)](https://opensource.org/licenses/${data.license})
 
   ## Description
   ${data.description}

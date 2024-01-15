@@ -1,9 +1,9 @@
-# dfs
+# 
 
-  ![License: AGPL v3](https://img.shields.io/badge/License-MIT-blue.svg)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  sd
+  dg
 
   ## Table of contents
   
@@ -24,26 +24,26 @@
   To install necessary dependencies, run the following command: 
 
   ~~~ 
-  a
+  npm i
   ~~~
 
   ## Usage 
-  sd
+  
 
   ## License
   MIT
 
   ## Contributing
-  f
+  
 
   ## Tests
   ~~~ 
-  s
+  npm test
   ~~~
 
   ## Questions
 
  If you have any questions about this project, please feel free to reach out to me at [](mailto:). 
- You can find out more about my work at [jessi994](https://github.com/jessi994).
+ You can find out more about my work at [rae](https://github.com/rae).
 
 

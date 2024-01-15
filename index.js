@@ -4,7 +4,6 @@ const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
-// inquirer.prompt(questions).then(answers => do stuff with them)
 const questions = [
     {
         type: 'input',
@@ -30,7 +29,7 @@ const questions = [
         type: 'list',
         message: 'What kind of license should your project have?',
         name: 'license',
-        choices: ['MIT','GPLv2','Apache License 2.0']
+        choices: ['MIT','gpl-2-0','Apache-2.0']
       },
       {
         type: 'input',
