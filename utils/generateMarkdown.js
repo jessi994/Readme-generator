@@ -40,7 +40,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  [${data.license}](https://opensource.org/licenses/${data.license})
+  This project is under the license [${data.license}](https://opensource.org/licenses/${data.license})
 
   ## Contributing
   ${data.contributing}
