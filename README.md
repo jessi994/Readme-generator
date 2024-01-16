@@ -28,7 +28,11 @@ This project generates a README file in the utils folder of this repo. This proj
     * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
     * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 
-### Walkthrough Video:
+### README generator Walkthrough Video:
+
+
+
+https://github.com/jessi994/Readme-generator/assets/147608169/4664d3f3-c67e-4d4f-82d5-1e94ab0a3097
 
 
 ### Credits
