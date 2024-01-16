@@ -62,14 +62,14 @@ function writeToFile(fileName, data) {
     //fs to writeFile or writeFileSync
     fs.writeFile(fileName, data, (err) => {
         if (err) throw err;
-        console.log('Generating your README file!!...');
+        console.log('README file generated!!...');
       }); 
 }
 
 // function to initialize program
 function init() {
  inquirer.prompt(questions).then(answers => {
-    console.log(answers);
+    
      
     // writeToFile within .then
     writeToFile('./utils/README.md', generateMarkdown(answers)) //return content of the readme

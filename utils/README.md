@@ -1,9 +1,9 @@
-# 
+# weatherApp
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Description
-  dg
+  Checks the local forecast 
 
   ## Table of contents
   
@@ -28,13 +28,13 @@
   ~~~
 
   ## Usage 
-  
+  Instructions for the repo will be added later
 
   ## License
-  MIT
+  [Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
-  
+  Use my contact details
 
   ## Tests
   ~~~ 
@@ -43,7 +43,7 @@
 
   ## Questions
 
- If you have any questions about this project, please feel free to reach out to me at [](mailto:). 
- You can find out more about my work at [rae](https://github.com/rae).
+ If you have any questions about this project, please feel free to reach out to me at [jess@gmail.com](mailto:jess@gmail.com). 
+ You can find out more about my work at [jessi994](https://github.com/jessi994).
 
 
